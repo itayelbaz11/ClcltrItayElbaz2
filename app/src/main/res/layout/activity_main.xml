@@ -30,7 +30,6 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -38,7 +37,6 @@
             android:onClick="plus"/>
 
         <Button
-            android:id="@+id/button2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -46,7 +44,6 @@
             android:onClick="minus"/>
 
         <Button
-            android:id="@+id/button3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -54,7 +51,6 @@
             android:onClick="multipy"/>
 
         <Button
-            android:id="@+id/button4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -77,22 +73,22 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="A/C" />
+            android:text="A/C"
+            android:onClick="ac"/>
 
         <Space
             android:layout_width="200px"
             android:layout_height="wrap_content" />
 
         <Button
-            android:id="@+id/button7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="=" />
+            android:text="="
+            android:onClick="shave"/>
     </LinearLayout>
 
     <Space
@@ -101,11 +97,11 @@
         android:layout_weight="3" />
 
     <Button
-        android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="About me" />
+        android:text="About me"
+        android:onClick="About"/>
 
     <Space
         android:layout_width="match_parent"
